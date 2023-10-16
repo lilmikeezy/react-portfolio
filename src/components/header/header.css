@@ -71,6 +71,14 @@ justify-content: center;
     header{
         height: 68vh;
     }
+    .me {
+        max-width: 50%;
+        height: auto;
+    }
+    .me img {
+        max-width: 50%;
+        height: auto;
+    }
 }
 
 /*================================= MEDIA QUERIES (SMALL DEVICES) ==============================*/
@@ -81,6 +89,17 @@ justify-content: center;
     } 
     .header__socials, .scroll__down{
         display: none;
+    }
+    .me {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        left: 25%;
+      
+    }
+    .me img {
+        max-width: 50%;
+        height: auto;
     }
 }
 
