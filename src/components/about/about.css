@@ -17,7 +17,6 @@
     width: auto;
     height: auto;
     border-radius: 2rem;
-    overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
 }
@@ -85,6 +84,7 @@ color: var(--color-light);
     .about__me-image {
         max-width: auto;
         height: auto;
+        margin-right: 20%;
     }
 }
 
@@ -110,8 +110,9 @@ color: var(--color-light);
     }
 
     .about__me-image {
-        max-width: auto;
+        max-width: 50%;
         height: auto;
+        margin-right: 80%;
     }
 
 
